@@ -1,0 +1,37 @@
+.titleMenu {
+    text-align: center;
+}
+
+.marginBottom1 {
+    margin-bottom: 20px;
+}
+
+.categoryMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+  
+.categoryList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 30px 20px;
+    box-shadow: 10px 5px aliceblue;
+    background-color: azure;
+}
+
+.categoryList:hover {
+    background-color: white;
+}
+
+.link {
+    padding: 10px 20px;
+    transition: all 0.2s;
+}
+
+.link:hover {
+    font-weight: bold;
+}
